@@ -7,6 +7,7 @@ export interface CalendarEntry {
     type: EntryType;
     startTime: string; // ISO string
     endTime: string;   // ISO string
+    date: string;      // ISO string
 }
 
 export interface Lobby {
