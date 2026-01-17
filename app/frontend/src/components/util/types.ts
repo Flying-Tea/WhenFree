@@ -14,3 +14,11 @@ export interface Lobby {
     name: string;
     code: string;
 }
+
+export interface WeeklyAvailability {
+    id: string;
+    name: string;
+    dayOfWeek: number; // 0=Sun, 1=Mon ... 6=Sat
+    start: string;
+    end: string;
+}

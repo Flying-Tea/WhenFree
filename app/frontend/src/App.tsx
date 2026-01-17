@@ -8,7 +8,7 @@ export default function App() {
   const [lobby, setLobby] = useState<Lobby | null>(null);
 
   return (
-    <div className="min-h-screen bg-gray-100 p-6">
+    <div className="min-h-screen bg-gray-100 p-5">
       {!lobby ? (
         <HomePage onJoin={setLobby} />
       ) : (
